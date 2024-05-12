@@ -40,4 +40,15 @@ $(function () {
 
   // Display current date in the header of the page
   $("#currentDay").text(dayjs().format("dddd, MMMM D"));
+
+  $("#clearBtn").on("click", function () {
+    // Confirm with the user before clearing the calendar
+    var confirmation = confirm("Are you sure you want to clear the entire calendar?");
+    if (confirmation) {
+      // Clear all localStorage items
+      localStorage.clear();
+      // Reload the page to reflect changes
+      location.reload();
+    }
+  });
 });
