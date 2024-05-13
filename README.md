@@ -1,4 +1,4 @@
-# Module 4 Challenge - Workday Planner
+# Module 5 Challenge - Workday Planner
 
 In this project users will be able to view post made by others that show what movies they have seen alongside a review of the movie, or post of movies they want to see and then add that movie to a wishlist table for the user.
 
